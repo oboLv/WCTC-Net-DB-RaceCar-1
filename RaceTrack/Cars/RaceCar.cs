@@ -34,5 +34,10 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} ends in position {Position}!");
         }
+
+
+        //extra credit - implemented in WarRig.cs
+        public abstract void StopEngine();
+
     }
 }
